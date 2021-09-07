@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 body {
@@ -10,130 +10,95 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #344b49;
+    color: #f2f5f7;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
+a {
+    color: whitesmoke;
+}
+
+
 .header nav {
+    color: wheat;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
-.header ul li {
+ ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+ }
 p {
     font-size: 16px;
 }
-
 .hero {
-    height: 800px;
-    width: 100%;
+    padding: 50px;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/woodwall.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
+.hero div  {
+    float: right;
+    color: cornsilk;
+}
+
+.hero h2 {
+    text-align: right;
+    background-color: brown;
+ 
+}
+
+aside {
+    display: flex;
     float: left;
-    margin-right: 25px;
+    font-size: 40px;
+    padding-right: 20px;
+   
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.about {
+   display: flex;
+   margin: 50px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
+/*
+body h2 {
+    float: left;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-
+    box-sizing: border-box;
 }
 
-.Benefit{
-    margin-bottom: 32px;
-    color: #ffffff;
+.About  {
+    border: red;
+    padding: 20px;
 }
 
-
-
-.Benefit h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.Benefit img{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-.Contents {
-    margin-bottom: 20px;
+.box {
+    border: solid;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
-
-.Contents img {
-    max-height: 200px; 
+.box h3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.Contents h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
+.jay {
+    display: flex;
+    flex-wrap: wrap;
 }
