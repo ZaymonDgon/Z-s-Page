@@ -66,7 +66,7 @@ aside {
     display: flex;
     float: left;
     font-size: 40px;
-    padding-right: 20px;
+    padding-right: 40px;
    
 }
 
@@ -75,6 +75,25 @@ aside {
    margin: 50px;
 }
 
+.box1 {
+    width: 60%;
+    padding: 15%;
+    border: black solid;
+    margin: 2%;
+}
+
+.box {
+
+    padding: 5%;
+    border: black solid;
+    margin: 1%;
+    width: 30%;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
 /*
 body h2 {
     float: left;
