@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    max-width: 100%;
+   
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #f0f2f1;
 }
 
 .header {
@@ -40,9 +42,7 @@ a {
     display: inline-block;
     margin-left: 25px;
  }
-p {
-    font-size: 16px;
-}
+
 .hero {
     padding: 50px;
     margin-bottom: 25px;
@@ -61,63 +61,92 @@ p {
     background-color: brown;
  
 }
-
-aside {
-    display: flex;
-    float: left;
-    font-size: 40px;
-    padding-right: 40px;
-   
-}
-
 .about {
-   display: flex;
-   margin: 50px;
+    display: flex;
+    text-align: right;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
 }
+
+.about h2 {
+    margin-right: 50px;
+    font-size: 50px;
+}
+.about p{
+    margin-left: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: left;
+}
+
+.about p span {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+
+.workhead {
+    margin-right: 50px;
+    font-size: 40px;
+    margin-left: 20px;
+    
+    float: left;
+}
+
 
 .box1 {
-    width: 60%;
-    padding: 15%;
+    padding-left: 0%;
+    padding: 25%;
+    border: black solid;
+    margin: 0%;
+    width: 94%;
+    height: 100%;
+    display: inline-block;
+    background-image: url("../images/coming-soon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.box1 div {
+    background-color: #3cb0db;
+    font-size: 230%;
+    float: left;
+    position: relative;
+    right: 55%;
+    bottom: 190px;
+}
+
+.box {
+    padding: 10%;
     border: black solid;
     margin: 2%;
+    width: 45%;
+    height: 30%;
+    display: inline-flex;
+    position: relative;
+    background-image: url("../images/coming-soon.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.box {
-
-    padding: 5%;
-    border: black solid;
-    margin: 1%;
-    width: 30%;
-}
-
-.boxes {
-    display: flex;
-    flex-wrap: wrap;
-}
-/*
-body h2 {
+.box div {
+    background-color: #3cb0db;
+    font-size: 150%;
     float: left;
-    padding: 20px;
-    box-sizing: border-box;
+    position: relative;
+    right: 80px;
+    bottom: 75px;
+
 }
 
-.About  {
-    border: red;
-    padding: 20px;
-}
-
-.box {
-    border: solid;
-    padding: 50px;
-}
-
-.box h3 {
+.boxen {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    
 }
 
-.jay {
-    display: flex;
-    flex-wrap: wrap;
-}
