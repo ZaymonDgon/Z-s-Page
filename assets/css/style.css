@@ -51,6 +51,11 @@ a {
     background-position: center;
 }
 
+.hero img {
+    width: 20%;
+    height: 20%;
+}
+
 .hero div  {
     float: right;
     color: cornsilk;
@@ -110,10 +115,10 @@ a {
 
 .box1 div {
     background-color: #3cb0db;
-    font-size: 230%;
+    font-size: 200%;
     float: left;
     position: relative;
-    right: 55%;
+    right: 57%;
     bottom: 190px;
 }
 
@@ -150,3 +155,26 @@ a {
     
 }
 
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.footer h2 {
+    margin-right: 50px;
+    font-size: 60px;
+    margin-left: 20px;
+    /* flex-wrap: wrap; */
+    text-align: left;
+}
+
+.footer ul {
+    margin-left: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    
+}
