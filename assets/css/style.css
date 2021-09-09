@@ -1,4 +1,5 @@
 * {
+/* the universal notations of everything within the page to have. */
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
@@ -7,6 +8,7 @@
 }
 
 body {
+/* the backbround for the page as a whole. */
     background-color: #f0f2f1;
 }
 
@@ -43,17 +45,16 @@ a {
     display: inline-block;
     margin-left: 25px;
  }
-
+/* within the header, I have the nav which is the navigation bar. Got some of the styling here. */
 .hero {
     padding: 40px;
     margin-bottom: 25px;
-    background-color: red;
     background-size: cover;
     background-position: center;
     background-image: url("../images/woodwall.jpg");
 }
 
-
+/* the hero contains an image as the background. which adds to the how the page looks. */
 .hero div  {
     float: right;
     color: cornsilk;
@@ -89,7 +90,7 @@ a {
     position: relative;
     margin-top: 40px;
 }
-
+/* the about section is styled similar to the workhead section so that they are able to flex in the same manner. */
 .workhead {
     margin-right: 50px;
     font-size: 40px;
@@ -110,6 +111,9 @@ a {
     padding:20%;
     padding-left: 0;
 }
+/* box1 is the class I gave the bigger box so that I could style it differtly than the smaller boxes. 
+I also added a picture by searching project on google. I planned on adding a picture of the page 
+itself, but I didn't like how it looked so more appealing. */
 
 
 .box {
@@ -124,6 +128,8 @@ a {
     background-size: cover;
     background-position: center;
 }
+/* box, to put it aside from the bigger one, these are the smaller boxes. And I gave them the same picture
+of coming soon so that whoever sees them, they can infeer that for themselves. */
 
 .box div {
     background-color: #3cb0db;
@@ -186,3 +192,7 @@ a {
 .footer ul a{
     color:black;
 }
+/* lastly, the footer is the last portion. I did it outside the body so that any of the flex wouln't
+mess with it. I also didn't add media queries because when I inspect my page, I am able to change what
+device to view the page from. When I do that, the layout of the page doesnt change so I saw no need to
+mess wit the media queries */
