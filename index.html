@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- A part of the page that the user is not able to see but is very crucial to the page. -->
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Portfolio</title>
       
 </head>
-  
+  <!-- Part of the page that the user is abke to see and therefore interact with thanks to the css -->
 <body>
     <header class="header">
       <h1>Zaymon Gonzalez</h1>
         <nav>
+          <!-- the navigation provides links to the page as a whole, and it will direct the user to the specific section
+          of the page that corresponds with the provided link. -->
           <ul>
             <li><a href="#About-Me">About Me</a></li>
             <li><a href="#Work">Work</a></li>
             <li><a href="#Contact-Me">Contact Me</a></li>
-            <li><a href="https://github.com/ZaymonDgon">Github</a></li>
+            <li><a href="https://github.com/ZaymonDgon" target="_blank">Github</a></li>
           </ul>
         </nav>
     </header>
 
     <article class="hero">
-      <img src="./assets/images/ztwo.jpg">
+      <!-- In the hero I have a picture of myself per request of the criteria. Its also a section between the navigation bar 
+      and the rest of the page.  -->
+      <img src="./assets/images/ztwo.jpg" alt="Picture of Myself" width="400px" height="450px">
       <div>
-        <h2>Welcom to Z's Page</h2>
+        <h2>Welcome to Z's Page</h2>
       </div>
     </article>
            
@@ -32,7 +36,6 @@
         <main>
 
           <article id="About-Me" class="about">
-
             <h2>About Me</h2>
         
             <p>
@@ -42,22 +45,16 @@
                  incidunt excepturi eligendi maiores. Architecto ipsa consequatur reprehenderit sint accusantiumnisi libero placeat tenetur
                 </span>
             </p>
-  
           </article>
 
           <div id="Work" class="workhead">
             <h2>Work</h2>
           </div>
 
-
             <div class="boxen">
                   
-              <section class="box1">
-                <div>
-                  <h3>First Work</h3>
-                </div>
-              </section>
-
+                <a href="https://zaymondgon.github.io/horiseon/" class="box1" alt="First Homework"  target="_blank">
+                    <span id="box1word">First Work <br>Click the Picture</br></span></a>
               <section class="box">
                 <div>
                   <h3>Second Work</h3>
@@ -72,13 +69,13 @@
       
               <section class="box">
                 <div>
-                  <h3>Forth Work</h3>
+                  <h3>Fourth Work</h3>
                 </div>
               </section>
       
               <section class="box">
                 <div>
-                  <h3>  Fifth Work</h3>
+                  <h3>Fifth Work</h3>
                 </div>
               </section>
             </div>
@@ -87,13 +84,12 @@
   
   <footer>
     <article class="footer">
-      <h2 id="Contact-Me">Contact Me</h2>
+      <h2 id="Contact-Me">Contact<span>Me</span></h2>
           <ul>
-            <li>720-490-8399</li>
-            <li>zaymon0@gmail.com</li>
-            <li>Spotify</li>
-            <li>Linkend</li>
+            <li><a href="">720-490-8399</a></li>
+            <li><a href="" >zaymon0@gmail.com<a</li>
+            <li><a href="" >Spotify</a></li>
         </ul>
     </article>
   </footer>
-</html>
+</html

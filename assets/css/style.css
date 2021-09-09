@@ -21,6 +21,7 @@ body {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
+    background-color: #3cb0db;
 }
 
 a {
@@ -44,17 +45,14 @@ a {
  }
 
 .hero {
-    padding: 50px;
+    padding: 40px;
     margin-bottom: 25px;
-    background-image: url("../images/woodwall.jpg");
+    background-color: red;
     background-size: cover;
     background-position: center;
+    background-image: url("../images/woodwall.jpg");
 }
 
-.hero img {
-    width: 20%;
-    height: 20%;
-}
 
 .hero div  {
     float: right;
@@ -63,7 +61,7 @@ a {
 
 .hero h2 {
     text-align: right;
-    background-color: brown;
+    background-color:#3cb0db;
  
 }
 .about {
@@ -77,6 +75,7 @@ a {
 .about h2 {
     margin-right: 50px;
     font-size: 50px;
+    color:#3cb0db;
 }
 .about p{
     margin-left: 20px;
@@ -95,41 +94,32 @@ a {
     margin-right: 50px;
     font-size: 40px;
     margin-left: 20px;
-    
     float: left;
+    color:#3cb0db;
 }
 
 
 .box1 {
-    padding-left: 0%;
-    padding: 25%;
-    border: black solid;
-    margin: 0%;
+    border:#3cb0db solid 10px;
+    margin:5px;
+    flex-direction: column;
     width: 94%;
-    height: 100%;
-    display: inline-block;
-    background-image: url("../images/coming-soon.jpg");
+    background-image:url("../images/project-pic.jpg"); 
     background-size: cover;
     background-position: center;
+    padding:20%;
+    padding-left: 0;
 }
 
-.box1 div {
-    background-color: #3cb0db;
-    font-size: 200%;
-    float: left;
-    position: relative;
-    right: 57%;
-    bottom: 190px;
-}
 
 .box {
     padding: 10%;
-    border: black solid;
+    padding-left: 0;
+    border: #3cb0db solid 10px;
     margin: 2%;
     width: 45%;
     height: 30%;
     display: inline-flex;
-    position: relative;
     background-image: url("../images/coming-soon.jpg");
     background-size: cover;
     background-position: center;
@@ -140,8 +130,7 @@ a {
     font-size: 150%;
     float: left;
     position: relative;
-    right: 80px;
-    bottom: 75px;
+    top:50px;
 
 }
 
@@ -150,31 +139,50 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+}
+
+
+#box1word{
     position: relative;
-    
+    background-color:#3cb0db;
+    float:left;
+    top:200px;
+    font-size: 30px;
+    color:black;
 }
 
 .footer {
     display: flex;
-    flex-wrap: wrap;
     text-align: right;
+    margin-bottom: 100px;
+    margin-left: 20px;
     margin-top: 100px;
 }
 
 .footer h2 {
     margin-right: 50px;
     font-size: 60px;
-    margin-left: 20px;
-    /* flex-wrap: wrap; */
-    text-align: left;
+    color: #3cb0db
+}
+
+.footer h2 span{
+    display:flex;
+    text-align: right;
+    position:relative;
+    justify-content: right;
+
 }
 
 .footer ul {
+    display: flex;
     margin-left: 20px;
     flex-wrap: wrap;
     font-size: 20px;
-    text-align: left;
     align-items: center;
+    font-size:35px;
     
+}
+
+.footer ul a{
+    color:black;
 }
